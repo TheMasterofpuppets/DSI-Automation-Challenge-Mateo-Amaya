@@ -32,6 +32,8 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes req
 2. **Librerías Python**:
    - Las principales librerías utilizadas en este proyecto son *pyautogui* y *pytesseract*, las cuales son necesarias para la ejecución del programa.
    - Asegúrate de instalar todas las dependencias necesarias de Python utilizando el comando:
+**Nota**: _se recomienda el uso de un entorno virtual_
+
      ```powershell
      > pip install -r requirements.txt
      ```

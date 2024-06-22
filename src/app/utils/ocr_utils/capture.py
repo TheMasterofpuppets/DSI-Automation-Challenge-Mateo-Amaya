@@ -1,7 +1,7 @@
 from PIL import Image
 
 import os
-from utils.config_utils import *
+from ...utils.config_utils import *
 
 import pytesseract
 

@@ -1,4 +1,4 @@
-from utils.run_bots import *
+from ..utils.run_bots import *
 
 def activate_bot1_service(path:str):
     return activate_bot1(path)

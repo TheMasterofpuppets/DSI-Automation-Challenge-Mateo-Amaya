@@ -1,7 +1,7 @@
 import pyautogui
 import os
 
-from utils.config_utils import *
+from ...utils.config_utils import *
 
 Number_Of_ScreenShot = 0
 

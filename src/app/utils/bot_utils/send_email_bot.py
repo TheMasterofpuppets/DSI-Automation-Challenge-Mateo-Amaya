@@ -1,5 +1,5 @@
-from utils.ocr_utils.capture import *
-from utils.scripts_utils import mouse, keyboard
+from ...utils.ocr_utils.capture import *
+from ...utils.scripts_utils import mouse, keyboard
 from time import sleep
 
 import pyperclip
@@ -24,13 +24,13 @@ def send_mail(msg:str,sbj:str,dest:str) -> None:
     keyboard.paste()
 
 
-    mouse.move_and_click(1567,511,"left")
+    mouse.move_and_click(1563,541,"left")
 
     keyboard.write(sbj)
 
     sleep(0.5)
 
-    mouse.move_and_click(1647,550,"left")
+    mouse.move_and_click(1435,731,"left")
 
     keyboard.write(msg)
 

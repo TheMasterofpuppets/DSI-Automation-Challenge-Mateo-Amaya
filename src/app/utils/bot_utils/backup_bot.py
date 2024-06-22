@@ -1,4 +1,4 @@
-from utils.scripts_utils import keyboard, mouse
+from ...utils.scripts_utils import keyboard, mouse
 from time import sleep
 
 def backup_warden(path:str,browser)->None:

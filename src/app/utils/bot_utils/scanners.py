@@ -1,5 +1,5 @@
-from utils.scripts_utils import screenshot, mouse
-from utils.ocr_utils.capture import *
+from ...utils.scripts_utils import screenshot, mouse
+from ...utils.ocr_utils.capture import *
 
 from time import sleep
 

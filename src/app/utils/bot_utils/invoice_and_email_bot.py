@@ -1,5 +1,5 @@
 from .scanners import *
-from utils.scripts_utils import keyboard
+from ...utils.scripts_utils import keyboard
 
 from .send_email_bot import send_mail
 

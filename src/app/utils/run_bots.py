@@ -1,5 +1,5 @@
-from utils.bot_utils import backup_bot, invoice_and_email_bot
-from utils.bot_utils import send_email_bot
+from ..utils.bot_utils import backup_bot, invoice_and_email_bot
+from ..utils.bot_utils import send_email_bot
 
 def activate_bot1(path:str)-> str:
     invoice_and_email_bot.check_invoice_and_email(path)

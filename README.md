@@ -59,6 +59,8 @@ Las credenciales de usuario están definidas en el archivo `/src/app/auth/token_
 
 Una vez que tengas el token de autenticación, puedes usarlo en las solicitudes para acceder a cualquiera de los endpoints que despliegan los bots de la aplicación.
 
+**Nota**: _la carpeta doc contiene los documentos y las facturas que los bots pueden analizar, utiliza la ruta de estas carpetas para probar los endpoints_
+
 ### Diseño y Arquitectura del Sistema
 
 El sistema sigue una arquitectura modular donde cada bot está diseñado para cumplir una tarea específica de manera independiente. Facilita el mantenimiento del sistema al permitir actualizaciones y correcciones de errores de manera localizada en cada módulo, sin afectar al sistema en su totalidad.
